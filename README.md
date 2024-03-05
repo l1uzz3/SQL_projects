@@ -62,5 +62,4 @@ It includes a query to list all films for a specific actor, providing a detailed
 ### C. Tools used:
 #### 1. MySQL 8.0 (server + workbench)
 #### 2. Git Bash (creating the repository, adding the SQL file to the repository)
-#### 3. Tableau 2024.1 for data visualization (direct connection from Tableau Desktop to MySQL)
 
