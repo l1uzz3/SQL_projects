@@ -1,7 +1,8 @@
 # SQL Data exploration and analysis of Sakila database
 
 
-
+## Summary of the project
+#### This SQL Data Exploration Project focuses on analyzing data within the 'Sakila' sample database, a commonly used resource for practicing SQL queries and database operations. The project is divided into three main parts: film and inventory analysis, customer behavior, and actor analysis.
 
 ### A.The database used is sakila database, a sample database from MySQL (link: https://dev.mysql.com/doc/sakila/en/) 
 
@@ -44,4 +45,22 @@ Additional information on the Sakila sample database and its usage can be found 
 
 The Sakila sample database is the result of support and feedback from the MySQL user community and feedback and user input is always appreciated. Please direct all feedback using the http://www.mysql.com/company/contact/. For bug reports, use MySQL Bugs.
 
-### B. 
+### B. Summary of each part: 
+#### 1. Film and Inventory Analysis:
+This part begins with basic data retrieval from the film table to understand the range of film lengths and characteristics such as title, release year, and rating.
+It categorizes films based on their lengths: under one hour, between one and two hours, and over two hours, and performs a count within these categories.
+Views are created for these categories to make future analyses more accessible.
+Additionally, this section explores the inventory by calculating the number of copies available for each film and the average rental duration, providing insights into inventory size and rental patterns.
+#### 2. Customer Behavior:
+This segment identifies the top 10 customers based on their rental activity, offering a glimpse into the most active users within the system.
+It examines rental frequency by month and year to uncover any trends, such as peak rental times.
+There's a specific analysis on the most popular film categories among customers in two Romanian cities, Bucuresti and Botosani, providing localized insights into customer preferences.
+#### 3. Actor Analysis:
+The focus shifts to analyzing actors within the Sakila database, listing them by the number of films they've appeared in. This helps identify the most prolific actors.
+It includes a query to list all films for a specific actor, providing a detailed view of an actor's work within the database.
+
+### C. Tools used:
+#### 1. MySQL 8.0 (server + workbench)
+#### 2. Git Bash (creating the repository, adding the SQL file to the repository)
+#### 3. Tableau 2024.1 for data visualization (direct connection from Tableau Desktop to MySQL)
+
